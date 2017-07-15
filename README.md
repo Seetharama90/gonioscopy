@@ -11,5 +11,3 @@ In order to use this repo, please feel free to clone directly to your working di
 # npm install
 ```
 
-Developed By NitinAgarwal
-Email-ID: agarwalnitin192@gmail.com
