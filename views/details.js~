@@ -1,0 +1,15 @@
+<html>
+<body>
+ <ui-view>
+            <h3>Company Details</h3>
+        </div>
+
+    <ul>
+       <li ng-repeat="users in user">
+           {{user.email}}
+       </li>
+    </ul>
+    </ui-view>
+</body>
+</html>
+

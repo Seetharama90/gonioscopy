@@ -1,0 +1,103 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+</style>
+<script src="jq.js"></script>
+ </head>
+</head>
+<body background="http://www.trbimg.com/img-585c3d6c/turbine/ct-mobile-eye-care-1223-biz-20161222">
+<br>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/profile">Profile</a></li>
+      <li ><a href="/home">Patient Details</a></li>   
+      <li><a href="/techreg">Technician Registration</a></li>    
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+   <img src="build.jpg" width="50"/>
+    <li><a href="/"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+    </ul>
+  </div>
+</nav> 
+<br>
+<br>
+<br>
+<br>
+  <div class="container">
+      
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+           <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Dr.Srinivas H V</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center"> <img src="uploads/eye1.jpg" class="img-circle img-responsive"> </div>
+                  <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>Department:</td>
+                        <td>Ophthalmologist</td>
+                      </tr>                        <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                      </tr>
+                        <tr>
+                        <td>Address</td>
+                        <td>Adithya Clinic,Opp. Kamakya Theatre,Banshankari</td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td><a href="srinivashv83@gmail.com">srinivashv83@gmail.com</a></td>
+                      </tr>
+                        <td>Phone Number</td>
+                        <td>9844058326(Mobile)
+                        </td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                  </div>
+              </div>
+            </div>
+                 <div class="panel-footer">
+                       
+                        <span class="pull-right">                           
+                        </span>
+                    </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

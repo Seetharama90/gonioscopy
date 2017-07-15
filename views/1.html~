@@ -1,0 +1,6 @@
+<html>
+<body>
+<input type="file" name="image" id="image/>
+<input type="submit" name="submit" value="defish"/>
+</body>
+</html>

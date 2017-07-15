@@ -1,0 +1,11 @@
+var express=require('express');
+var app=express();
+var sys=require('sys');
+//var exec=require('child-process').exec
+
+app.get('/def',function(req,res){
+var a=req.body.image
+exec("g++ -Wall defish.cpp -o defish-ppm");
+exec("djpeg -pnm a | ./defish-ppm | cjpeg > sri.jpg");
+
+});

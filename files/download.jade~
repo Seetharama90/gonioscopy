@@ -1,0 +1,27 @@
+
+extends layout
+
+block content
+
+	#login.center-vertical
+		form.well(id='form-login', method='post')
+			center Enter Details to Download APK File
+			.form-group
+				label Enter Serial NUmber
+				input.form-control(type='password', id='pass-tf', name='pass')
+
+			.controls
+				button(type='submit').btn.btn-primary.button-sign-in
+					span.glyphicon.glyphicon-lock
+					| Log In
+			.clearfix
+			
+block scripts
+	script(src='/vendor/jquery-2.2.3.min.js')
+	script(src='/vendor/jquery.form.min.js')
+	script(src='/vendor/bootstrap.min.js')
+	script(src='/js/views/login.js')
+	script(src='/js/views/back.js')
+	script(src='/js/controllers/loginController.js')
+	script(src='/js/form-validators/loginValidator.js')
+	script(src='/js/form-validators/emailValidator.js')

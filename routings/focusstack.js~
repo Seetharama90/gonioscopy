@@ -1,0 +1,14 @@
+var concat = require('concat-image');
+var fs     = require('fs');
+
+concat({
+  images: [
+    fs.readFileSync('./1.png')
+    fs.readFileSync('./2.png')
+    fs.readFileSync('./3.png')
+  ],
+  margin: 10 
+}, function(err, canvas) {
+  
+fs.writeFileSync('./123.png', canvas.toBuffer());
+});

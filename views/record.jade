@@ -1,0 +1,35 @@
+br
+include home.html
+link(rel='stylesheet', href='css/table.css')
+link(rel='stylesheet', href='css/table.scss')
+body(background="images/background1.jpg")
+form(action='/search', method='POST')
+              center
+                   input(type='text',id='text1',placeholder='Enter Patient ID',name='text1')
+                   button.button Search
+br
+br
+b
+center                  
+ h3 Patient Details
+ br
+table(class="responstable")
+  tr
+    th Patient ID
+    th Name
+    th Age
+    th Gender
+    th Contact
+    th Email
+    th Image
+  tbody
+  each user in patients
+   tr
+    td #{user.patient_id}
+    td #{user.name}
+    td #{user.age}
+    td #{user.gender}
+    td #{user.contact}
+    td #{user.email}
+    td <a href='http://52.38.205.169:3000/api/img/Right_#{user.patient_id}_20170707_172902_1023927555.jpg'>#{user.patient_id}</a> <a href='http://52.38.205.169:3000/api/img/Right_#{user.patient_id}_20170707_172902_1023927555.jpg'>#{user.patient_id}</a> <a href='http://52.38.205.169:3000/api/img/Right_#{user.patient_id}_20170707_172902_1023927555.jpg'>#{user.patient_id}</a>
+    

@@ -1,0 +1,22 @@
+br
+include home.html
+form(action='/search', method='POST')
+              center
+                   label Search  :
+                   input(type='text',id='text1', name='text1')
+                   input(type='submit', value='Search')
+br
+br
+br
+center                  
+  table(border=1 width=800 cellspacing=0 cellpadding=0)
+    thead Patient Details
+      tr
+        th ID
+        th Path
+      tbody
+      each user1 in files
+        tr
+          td #{user1._id}
+          td #{user1.path}
+          

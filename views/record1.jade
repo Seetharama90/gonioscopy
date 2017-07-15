@@ -1,0 +1,15 @@
+br
+include home.html
+link(rel='stylesheet', href='css/table.css')
+link(rel='stylesheet', href='css/table.scss')
+br
+table(class="responstable")
+  tr
+    th ID
+    th Image
+  tbody
+  each user in fsfiles
+      tr
+        td #{user.filename}        
+        td <a href='http://52.38.205.169:3000/api/img/#{user.filename}'><img src="images/bck.jpg" width="50" height="40" /></a>
+  

@@ -1,0 +1,10 @@
+var express=require('express');
+var app=express();
+const mergeImages=require('merge-images');
+const canvas=require('canvas');
+
+mergeImages['/eye1.jpg','/eye2.jpg']
+
+})
+
+
